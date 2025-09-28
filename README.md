@@ -141,3 +141,21 @@ Built with **Next.js**, **React**, **Tailwind CSS**, and **MongoDB Atlas**, with
 /package.json
 /tailwind.config.js
 /.env.local
+
+
+## 📸 Screenshots of ChatGpt
+
+### 
+![Screenshot 1 i have taken help of gpt to take descriptions of blogs ](./Assets/ss1.png)
+
+### 
+![Screenshot 2 this ss wil describe about readme file format i have written and asked gpt to correct it](./Assets/ss2.png)
+
+###
+![Screenshot 3 this ss describe about promt given to SS2 output ](./Assets/ss3.png)
+
+### 
+![Screenshot 4 this ss will describe about styling because some components are mixed due to over tension i have done mistakes in codes thus i have asked to separate waste css from code](./Assets/ss4.png)
+
+###
+for api and database connection i have not used gpt and other tools
