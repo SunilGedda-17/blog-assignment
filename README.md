@@ -147,3 +147,12 @@ Built with **Next.js**, **React**, **Tailwind CSS**, and **MongoDB Atlas**, with
 for api and database connection i have not used gpt and other tools i have used AI for to create well structured Readme.md file
 
 link of ai  : [https://chatgpt.com/share/68d937fc-4204-800b-a0fe-e3eac43e2e2d];
+
+
+# Before deployement in vercel the output was in below picture 
+![output in local host](./Assets/ss1.png)
+![admin page output in local host](./Assets/ss3.png)
+
+# after deployement in vercel the output was 
+![output of vercel delpoy](./Assets/ss2.png)
+link : [https://blog-assignment-iota.vercel.app/]
