@@ -1,22 +1,24 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    // broad globs so Tailwind won't accidentally purge needed classes
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./public/**/*.html",
+    "./**/*.{js,ts,jsx,tsx,html}"
   ],
   safelist: [
-    'text-sm', 'text-base', 'text-lg', 'text-xl',
-    'px-2', 'px-4', 'px-6', 'px-8',
-    'grid-cols-1', 'grid-cols-2', 'grid-cols-3',
+    // explicit classes or regex patterns used dynamically in code
+    'grid-cols-1',
+    'grid-cols-2',
+    'grid-cols-3',
+    // regex example for dynamic colors: bg-red-500, bg-blue-200, text-green-600 ...
+    { pattern: /^(bg|text|border)-(red|green|blue|yellow|gray|indigo)-(100|200|300|400|500|600|700|800|900)$/ }
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
